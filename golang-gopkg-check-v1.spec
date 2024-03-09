@@ -21,7 +21,7 @@ License:	BSD with attribution
 Group:		Development/Other
 BuildRequires:	compiler(go-compiler)
 %if %{with check}
-BuildRequires:	github.com/kr/pretty
+BuildRequires:	golang(github.com/kr/pretty)
 %endif
 
 %description
